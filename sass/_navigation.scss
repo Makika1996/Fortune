@@ -1,0 +1,38 @@
+.header {
+  .contactBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: $darkBlue;
+    padding: 10px 20%;
+
+    i {
+      color: $lightBlue;
+      font-size: 15px;
+    }
+
+    small {
+      color: $gray;
+    }
+
+    .contact {
+      display: flex;
+    }
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 25px;
+
+      span {
+        color: $lightBlue;
+      }
+    }
+
+    .navBar {
+
+    }
+  }
+}

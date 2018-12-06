@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  margin: 0 20% 0 20%; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif; }
+
+.header {
+  font-family: "Open Sans", sans-serif; }
+
+.header .contactBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #071e33;
+  padding: 10px 20%; }
+  .header .contactBar i {
+    color: #00b1e4;
+    font-size: 15px; }
+  .header .contactBar small {
+    color: #a0a3a9; }
+  .header .contactBar .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .header .navigation h1 {
+    font-size: 25px; }
+    .header .navigation h1 span {
+      color: #00b1e4; }
