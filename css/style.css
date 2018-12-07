@@ -1,8 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
@@ -43,8 +41,50 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-top: 20px; }
   .header .navigation h1 {
     font-size: 25px; }
     .header .navigation h1 span {
       color: #00b1e4; }
+  .header .navigation nav {
+    display: inline-block; }
+    .header .navigation nav a {
+      text-decoration: none;
+      color: #071e33;
+      font-size: 13px;
+      font-weight: 600;
+      padding-left: 25px; }
+      .header .navigation nav a:hover {
+        color: #00b1e4; }
+    .header .navigation nav .active {
+      color: #00b1e4; }
+
+.inspire {
+  background-image: url("../images/intro-carousel/1.jpg");
+  height: 665px;
+  padding: 250px; }
+  .inspire h1 {
+    font-size: 60px; }
+  .inspire p {
+    font-size: 20px;
+    padding-bottom: 30px; }
+  .inspire button {
+    width: 160px;
+    height: 40px;
+    background-color: #00b1e4;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold; }
+    .inspire button:hover {
+      cursor: pointer;
+      border: 2px solid #00b1e4;
+      background-color: #dff3fa;
+      color: #00b1e4;
+      font-weight: bold;
+      -webkit-transition: color 0.5s ease;
+      -o-transition: color 0.5s ease;
+      transition: color 0.5s ease; }
