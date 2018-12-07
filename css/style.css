@@ -8,7 +8,7 @@
   margin: 0 20% 0 20%; }
 
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif; }
@@ -119,8 +119,6 @@ h1, h2, h3, h4, h5, h6 {
         width: 550px; }
     .welcome .wrapper .right {
       text-align: left; }
-      .welcome .wrapper .right p {
-        font-size: 15px; }
       .welcome .wrapper .right .bold {
         margin-bottom: 20px;
         font-weight: bold; }
