@@ -1,0 +1,60 @@
+.welcome {
+  margin-top: 50px;
+  text-align: center;
+
+  hr {
+    border: 1px solid $lightBlue;
+    margin-left: calc(50% - 45px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    .left {
+      margin-right: 50px;
+      img {
+        height: 350px;
+        width: 550px;
+      }
+    }
+    .right {
+      text-align: left;
+
+      p {
+        font-size: 15px;
+      }
+
+      .bold {
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+
+      .italic {
+        margin-bottom: 20px;
+        font-style: italic;
+        color: #555555;
+      }
+
+      .regular {
+        margin-bottom: 20px;
+      }
+
+      ul {
+        list-style-type: none;
+        li {
+          margin-bottom: 10px;
+          i {
+            color: $lightBlue;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+
+
+}

@@ -28,12 +28,19 @@ h1, h2, h3, h4, h5, h6 {
   .header .contactBar i {
     color: #00b1e4;
     font-size: 15px; }
+    .header .contactBar i:hover {
+      cursor: pointer;
+      color: white; }
   .header .contactBar small {
     color: #a0a3a9; }
   .header .contactBar .contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+    .header .contactBar .contact .phone i {
+      padding-left: 20px; }
+  .header .contactBar .socialMedia i {
+    padding-left: 10px; }
 
 .header .navigation {
   display: -webkit-box;
@@ -88,3 +95,45 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-transition: color 0.5s ease;
       -o-transition: color 0.5s ease;
       transition: color 0.5s ease; }
+
+.welcome {
+  margin-top: 50px;
+  text-align: center; }
+  .welcome hr {
+    border: 1px solid #00b1e4;
+    margin-left: calc(50% - 45px);
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .welcome .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 30px; }
+    .welcome .wrapper .left {
+      margin-right: 50px; }
+      .welcome .wrapper .left img {
+        height: 350px;
+        width: 550px; }
+    .welcome .wrapper .right {
+      text-align: left; }
+      .welcome .wrapper .right p {
+        font-size: 15px; }
+      .welcome .wrapper .right .bold {
+        margin-bottom: 20px;
+        font-weight: bold; }
+      .welcome .wrapper .right .italic {
+        margin-bottom: 20px;
+        font-style: italic;
+        color: #555555; }
+      .welcome .wrapper .right .regular {
+        margin-bottom: 20px; }
+      .welcome .wrapper .right ul {
+        list-style-type: none; }
+        .welcome .wrapper .right ul li {
+          margin-bottom: 10px; }
+          .welcome .wrapper .right ul li i {
+            color: #00b1e4;
+            margin-right: 5px; }

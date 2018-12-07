@@ -8,6 +8,10 @@
     i {
       color: $lightBlue;
       font-size: 15px;
+      &:hover {
+        cursor: pointer;
+        color: white;
+      }
     }
 
     small {
@@ -16,6 +20,16 @@
 
     .contact {
       display: flex;
+      .phone {
+        i {
+          padding-left: 20px;
+        }
+      }
+    }
+    .socialMedia {
+      i {
+        padding-left: 10px;
+      }
     }
   }
 
