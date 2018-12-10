@@ -1,0 +1,32 @@
+.ourService {
+  .row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    .column {
+      @include column(3, 50px);
+      border: 1px solid $border;
+      height: 320px;
+      width: 350px;
+      padding: 55px 15px;
+
+      img {
+        height: 85px;
+      }
+
+      h3 {
+        color: $header;
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      p {
+        color: $paragraf;
+        padding-top: 5px;
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@mixin column($columns, $margin) {
+  width: calc(#{100% / $columns} - #{$margin * ($columns - 1) / $columns});
+  margin-right: $margin;
+
+  &:last-child {
+    margin-right: 0
+  }
+}

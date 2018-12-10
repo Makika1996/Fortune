@@ -7,3 +7,20 @@
 .container {
   margin: 0 20% 0 20%;
 }
+
+hr {
+  border: 1px solid $lightBlue;
+  margin-left: calc(50% - 45px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.intro-text {
+  text-align: center;
+  padding-bottom: 50px;
+}
