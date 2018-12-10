@@ -1,10 +1,14 @@
 @import "variables";
 @import "mixins";
 
+@import "plugins/slick-theme.scss";
+@import "plugins/slick.scss";
 
 @import "general";
 @import "fonts";
 @import "navigation";
-@import "inspire";
-@import "welcome";
-@import "ourService";
+
+
+@import "components/buttons";
+@import "components/sections";
+@import "components/slider";
