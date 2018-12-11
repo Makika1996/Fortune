@@ -381,4 +381,44 @@ h1, h2, h3, h4, h5, h6, p {
       font-size: 15px; }
 
 .clients-slider img {
-  height: 45px; }
+  height: 45px;
+  opacity: 0.4;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  padding-right: 55px; }
+  .clients-slider img:last-child {
+    padding-right: 0; }
+  .clients-slider img:hover {
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
+
+.testimonials-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .testimonials-slider .column {
+    width: calc(33.33333% - 33.33333px);
+    margin-right: 50px;
+    padding: 0 15px;
+    text-align: center; }
+    .testimonials-slider .column:last-child {
+      margin-right: 0; }
+    .testimonials-slider .column .text {
+      padding: 35px 25px;
+      font-size: 13px;
+      font-style: italic;
+      border: 1px solid #DEDEDE;
+      background-color: #F1F1F1;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 280px;
+      height: 155px; }

@@ -1,0 +1,23 @@
+.testimonials-slider {
+  display: flex;
+  flex-direction: row;
+
+  .column {
+    @include column(3, 50px);
+    padding: 0 15px;
+    text-align: center;
+
+    .text {
+      padding: 35px 25px;
+      font-size: 13px;
+      font-style: italic;
+      border: 1px solid $border;
+      background-color: #F1F1F1;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      width: 280px;
+      height: 155px;
+    }
+  }
+}
