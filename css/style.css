@@ -422,3 +422,9 @@ h1, h2, h3, h4, h5, h6, p {
       border-bottom-left-radius: 20px;
       width: 280px;
       height: 155px; }
+    .testimonials-slider .column h3 {
+      margin-top: 20px;
+      margin-bottom: 5px; }
+    .testimonials-slider .column .job-title {
+      font-size: 15px;
+      color: #A6A6A6; }
