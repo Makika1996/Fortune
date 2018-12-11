@@ -1,18 +1,22 @@
-.clients-slider {
-  img {
-    height: 45px;
-    opacity: 0.4;
-    transition-duration: 0.5s;
-    padding-right: 55px;
+.clients {
+  padding: 60px 0;
 
-    &:last-child {
-      padding-right: 0;
-    }
+  .clients-slider {
+    img {
+      height: 45px;
+      opacity: 0.4;
+      transition-duration: 0.5s;
+      padding-right: 55px;
 
-    &:hover {
-      cursor: pointer;
-      opacity: 1;
-      transform: scale(1.1);
+      &:last-child {
+        padding-right: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+        opacity: 1;
+        transform: scale(1.1);
+      }
     }
   }
 }

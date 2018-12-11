@@ -5,22 +5,27 @@
 }
 
 .container {
-  margin: 0 20% 0 20%;
+  margin: 0 20%;
 }
 
 hr {
   border: 1px solid $lightBlue;
   margin-left: calc(50% - 45px);
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 100px;
+  font-size: 32px;
+  color: #071e33;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .intro-text {
+  margin: 0;
+  padding: 0;
   text-align: center;
-  padding-bottom: 50px;
+  color: #333333;
 }
