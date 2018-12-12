@@ -118,15 +118,15 @@
         width: 20px;
         height: 20px;
         font-family: "slick";
-        font-size: 6px;
+        font-size: 50px;
         line-height: 20px;
         text-align: center;
-        color: black;
+        color: #00b1e4;
         opacity: 0.25;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; }
     .slick-dots li.slick-active button:before {
-      color: black;
+      color: #00b1e4;
       opacity: 0.75; }
 
 /* Slider */
