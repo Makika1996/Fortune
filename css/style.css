@@ -537,6 +537,42 @@ h1, h2, h3, h4, h5, h6, p {
 
 .get {
   background-color: #00B1E4;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  padding: 40px 0; }
   .get .container h2 {
-    padding-top: 45px; }
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.2; }
+  .get .container .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .get .container .wrap .text p {
+      margin-bottom: 30px;
+      line-height: 1.5;
+      padding-right: 60px; }
+    .get .container .wrap .btn button {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      width: 165px;
+      letter-spacing: 1px;
+      padding: 8px 26px;
+      border-radius: 3px;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      margin: 10px;
+      border: 3px solid #fff;
+      background: none;
+      color: #fff; }
+
+.footer {
+  background-color: #071e33;
+  padding-bottom: 30px;
+  font-size: 14px; }
