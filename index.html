@@ -6,7 +6,7 @@
   <title>Fortune</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
@@ -26,11 +26,11 @@
         </div> <!-- end of phone div -->
       </div> <!-- end of contact div -->
       <div class="socialMedia">
-        <span><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></span>
-        <span><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></span>
-        <span><a href="https://plus.google.com/"><i class="fab fa-google-plus-g"></i></a></span>
-        <span><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></span>
-        <span><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></span>
+        <a href="https://twitter.com/" class="first-child"><i class="fab fa-twitter"></i></a></span>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://plus.google.com/"><i class="fab fa-google-plus-g"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/" class="last-child"><i class="fab fa-instagram"></i></a>
       </div> <!-- end of socialMedia div -->
     </div> <!-- end of contactBar div -->
     <div class="container navigation">
@@ -40,9 +40,16 @@
         <a href="#">About Us</a>
         <a href="#">Service</a>
         <a href="#">Portfolio</a>
-        <a href="#">Dropdown</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown <i class="fas fa-chevron-down"></i></button>
+          <div class="dropdown-content">
+            <a href="#">Link item 1</a>
+            <a href="#">Link item 3</a>
+            <a href="#">Link item 4</a>
+            <a href="#">Link item 5</a>
+          </div>
+        </div>
         <a href="#">Contact</a>
-        <a href="#"></a>
       </nav>
     </div>
   </div> <!-- end of navigation div -->
