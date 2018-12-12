@@ -1,5 +1,5 @@
 .ourService {
-  padding: 60px 0 0 0;
+  padding: 60px 0 0;
 
   .row {
     display: flex;
@@ -8,26 +8,40 @@
 
     .column {
       @include column(3, 50px);
+      padding: 40px;
+      margin-bottom: 40px;
+      transition-duration: 0.5s;
       border: 1px solid $border;
-      height: 320px;
-      width: 350px;
-      padding: 55px 15px;
 
-      img {
-        height: 85px;
+      .image {
+        display: block;
+        width: 100%;
+        padding: 15px;
+
+        img {
+          width: 120px;
+        }
       }
 
       h3 {
-        color: $header;
-        padding-top: 15px;
-        font-size: 20px;
-        font-weight: bold;
+        font-weight: 700;
+        font-size: 22px;
+        font-family: "Montserrat", sans-serif;
       }
 
       p {
-        color: $paragraf;
-        padding-top: 5px;
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 24px;
+        display: block;
+        margin: 0;
+        padding-top: 15px;
+        // color: $paragraf;
+      }
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 30px rgba(73, 78, 92, 0.15);
+        transform: translateY(-15px);
       }
     }
   }
