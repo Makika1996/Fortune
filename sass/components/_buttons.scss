@@ -1,0 +1,21 @@
+.btn-bottom {
+  button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 6px 12px 9px;
+    font-size: 16px;
+    background-color: #00b1e4;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 2px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #0c2e8a;
+      border: none;
+    }
+  }
+}

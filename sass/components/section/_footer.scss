@@ -1,5 +1,28 @@
 .footer {
   background-color: #071e33;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
   padding-bottom: 30px;
-  font-size: 14px;
+
+  .copyright {
+    padding-top: 30px;
+    font-size: 14px;
+    color: #ffffffad;
+
+    span {
+      font-weight: bolder;
+    }
+  }
+
+  .template {
+    font-size: 13px;
+    color: #ffffff85;
+    margin-top: 8px;
+
+    a {
+      color: #00b1e4;
+
+    }
+  }
 }

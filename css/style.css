@@ -121,7 +121,7 @@
         font-size: 50px;
         line-height: 20px;
         text-align: center;
-        color: #00b1e4;
+        color: black;
         opacity: 0.25;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; }
@@ -356,6 +356,25 @@ h1, h2, h3, h4, h5, h6, p {
       background-color: white;
       color: #00b1e4; }
 
+.btn-bottom button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 6px 12px 9px;
+  font-size: 16px;
+  background-color: #00b1e4;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 2px;
+  border: none;
+  font-family: "Open Sans", sans-serif; }
+  .btn-bottom button:hover {
+    cursor: pointer;
+    background-color: #0c2e8a;
+    border: none; }
+
 .inspire {
   background-image: url("../images/intro-carousel/1.jpg");
   height: 665px;
@@ -574,5 +593,19 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer {
   background-color: #071e33;
-  padding-bottom: 30px;
-  font-size: 14px; }
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  padding-bottom: 30px; }
+  .footer .copyright {
+    padding-top: 30px;
+    font-size: 14px;
+    color: #ffffffad; }
+    .footer .copyright span {
+      font-weight: bolder; }
+  .footer .template {
+    font-size: 13px;
+    color: #ffffff85;
+    margin-top: 8px; }
+    .footer .template a {
+      color: #00b1e4; }
