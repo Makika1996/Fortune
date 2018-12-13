@@ -40,6 +40,23 @@ $(function() {
         scrollTop: 0
       }, 1000);
     });
-
   });
 });
+
+
+window.onscroll = function() {
+  stickyNav()
+};
+
+function stickyNav() {
+
+  var navbar = document.getElementsByClassName("navigation")[0];
+  var sticky = navbar.offsetTop;
+  var inspire = document.getElementById("inspire");
+
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
