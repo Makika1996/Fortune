@@ -382,8 +382,21 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: "Open Sans", sans-serif; }
   .btn-bottom button:hover {
     cursor: pointer;
-    background-color: #0c2e8a;
-    border: none; }
+    background-color: #0c2e8a; }
+
+button {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0;
+  color: #FFFFFF; }
+  button:hover {
+    cursor: pointer; }
 
 .inspire {
   background-image: url("../images/intro-carousel/1.jpg");
@@ -402,19 +415,8 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #00b1e4;
     border: 2px solid #00b1e4;
     font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 32px;
-    border-radius: 2px;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    margin: 0;
-    color: #FFFFFF; }
+    border-radius: 2px; }
     .inspire button:hover {
-      cursor: pointer;
       background: none;
       color: #00b1e4;
       border: 2px solid #00b1e4; }
@@ -533,7 +535,8 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
-  flex-direction: row; }
+  flex-direction: row;
+  padding-bottom: 50px; }
   .testimonials-slider .testimonials-item {
     width: calc(33.33333% - 33.33333px);
     margin-right: 50px;
@@ -544,7 +547,7 @@ h1, h2, h3, h4, h5, h6, p {
       margin-right: 0; }
     .testimonials-slider .testimonials-item .text {
       font-style: italic;
-      margin: 0 auto 15px auto;
+      margin: 0 auto 15px;
       background-color: #F1F1F1;
       width: 100%;
       border: 1px solid #DCDCDC;
@@ -556,13 +559,16 @@ h1, h2, h3, h4, h5, h6, p {
     .testimonials-slider .testimonials-item h3 {
       font-size: 18px;
       font-weight: bold;
-      margin: 10px 0 5px 0;
+      margin: 10px 0 5px;
       color: #111111;
       font-family: "Montserrat", sans-serif; }
     .testimonials-slider .testimonials-item .job-title {
       font-size: 14px;
       color: #999999;
       margin: 0; }
+
+.slick-dots {
+  padding-bottom: 50px; }
 
 .get {
   background-color: #00B1E4;
@@ -585,21 +591,19 @@ h1, h2, h3, h4, h5, h6, p {
       margin-bottom: 30px;
       line-height: 1.5;
       padding-right: 60px; }
-    .get .container .wrap .btn button {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      font-size: 16px;
-      width: 165px;
-      letter-spacing: 1px;
-      padding: 8px 26px;
-      border-radius: 3px;
-      -webkit-transition: 0.5s;
-      -o-transition: 0.5s;
-      transition: 0.5s;
-      margin: 10px;
-      border: 3px solid #fff;
-      background: none;
-      color: #fff; }
+    .get .container .wrap .btn {
+      width: 50%;
+      text-align: right; }
+      .get .container .wrap .btn button {
+        font-family: "Montserrat", sans-serif;
+        border-radius: 3px;
+        border: 3px solid #fff;
+        background: none;
+        color: #fff; }
+        .get .container .wrap .btn button:hover {
+          background-color: #fff;
+          color: #00b1e4;
+          border: 2px solid #fff; }
 
 .footer {
   background-color: #071e33;
@@ -618,4 +622,5 @@ h1, h2, h3, h4, h5, h6, p {
     color: #ffffff85;
     margin-top: 8px; }
     .footer .template a {
-      color: #00b1e4; }
+      color: #00b1e4;
+      text-decoration: none; }
