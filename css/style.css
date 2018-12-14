@@ -476,7 +476,7 @@ button {
     justify-content: space-between;
     text-align: center; }
     .ourService .row .column {
-      width: calc(33.33333% - 33.33333px);
+      width: calc(100% - 0px);
       margin-right: 50px;
       padding: 40px;
       margin-bottom: 40px;
@@ -624,3 +624,56 @@ button {
     .footer .template a {
       color: #00b1e4;
       text-decoration: none; }
+
+.aboutUs {
+  background-color: #00b1e4;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff; }
+  .aboutUs h2 {
+    font-weight: bold;
+    font-size: 38px; }
+  .aboutUs p {
+    font-size: 18px; }
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .wrapper .left {
+    margin-right: 50px; }
+    .wrapper .left img {
+      height: 350px;
+      width: 550px; }
+  .wrapper .right {
+    text-align: left; }
+    .wrapper .right .bold {
+      color: #000000;
+      font-weight: 700;
+      font-size: 18px;
+      font-family: "Raleway", sans-serif;
+      margin: 0 0 20px; }
+    .wrapper .right .italic {
+      line-height: 26px;
+      padding: 0;
+      margin: 0 0 30px;
+      color: #6F6F6F;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-style: italic; }
+    .wrapper .right .regular {
+      line-height: 26px;
+      font-family: "Open Sans", sans-serif;
+      color: #444;
+      margin: 0 0 30px; }
+    .wrapper .right ul {
+      list-style: none; }
+      .wrapper .right ul li {
+        padding-bottom: 10px;
+        color: #444; }
+        .wrapper .right ul li i {
+          color: #00b1e4;
+          margin-right: 5px; }
