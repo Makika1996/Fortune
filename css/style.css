@@ -235,8 +235,8 @@ h1 {
 .sticky {
   position: fixed;
   margin-top: -43px;
-  -webkit-box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
-  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06); }
+  -webkit-box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.06); }
 
 body {
   font-family: "Open Sans", sans-serif; }
